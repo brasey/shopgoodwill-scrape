@@ -1,0 +1,7 @@
+---
+cron:
+  - description: "Scrape shopgoodwill.com"
+    url: /
+    schedule: every 2 hours from 07:00 to 22:00
+    timezone: America/New_York
+    target: scrape
